@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> <!-- Link to the external stylesheet -->
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="icons">
+            <i class="fas fa-calendar-alt" title="Calendar"></i>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search for recipes..." id="search-bar">
+            <button type="button">Search</button>
+        </div>
+        <div class="icons">
+            <i class="fas fa-user-circle" title="Profile"></i>
+        </div>
+    </div>
+
+    <div class="filters">
+        <select id="cuisine-filter">
+            <option value="">Select Cuisine</option>
+            <option value="italian">Italian</option>
+            <option value="chinese">Chinese</option>
+            <option value="indian">Indian</option>
+            <option value="mexican">Mexican</option>
+        </select>
+        <select id="condition-filter">
+            <option value="">Select Condition</option>
+            <option value="vegan">Vegan</option>
+            <option value="gluten-free">Gluten-Free</option>
+            <option value="low-carb">Low Carb</option>
+            <option value="keto">Keto</option>
+        </select>
+    </div>
+
+    <div class="recipe-cards">
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Recipe 1">
+            <h3>Recipe 1</h3>
+            <p>Short description of Recipe 1.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Recipe 2">
+            <h3>Recipe 2</h3>
+            <p>Short description of Recipe 2.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Recipe 3">
+            <h3>Recipe 3</h3>
+            <p>Short description of Recipe 3.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Recipe 4">
+            <h3>Recipe 4</h3>
+            <p>Short description of Recipe 4.</p>
+        </div>
+    </div>
+
+</body>
+</html>

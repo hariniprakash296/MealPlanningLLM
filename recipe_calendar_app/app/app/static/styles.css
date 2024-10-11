@@ -1,0 +1,114 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* White background for navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.navbar .icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .icons i {
+    font-size: 24px;
+    color: #4CAF50; /* Green color for icons */
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.search-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 20px; /* Rounded search bar */
+    margin-right: 10px;
+    transition: border 0.3s; /* Smooth transition */
+}
+
+.search-container input[type="text"]:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.search-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px; /* Rounded button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.search-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.filters select {
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light border */
+    background-color: #ffffff; /* White background */
+    transition: border 0.3s; /* Smooth transition */
+}
+
+.filters select:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.recipe-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff; /* White background for cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px; /* Rounded corners for images */
+}
