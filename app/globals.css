@@ -25,3 +25,31 @@ body {
     text-wrap: balance;
   }
 }
+
+.bg-beige {
+  background-color: rgb(251, 215, 165); /* Beige color */
+}
+
+.border-soft-yellow {
+  border-color: #fefbd8; /* Soft yellow color */
+}
+
+.text-soft-orange {
+  color: white; /* Soft orange color */
+}
+
+/* styles.css */
+.button {
+  background: linear-gradient(to right, #a140fb, #f02899); /* Pastel gradient */
+  color: white; /* Soft orange */
+  border: 2px solid #f9ee78; /* Soft yellow */
+  border-radius: 0.375rem; /* Rounded corners */
+  padding: 0.5rem 1rem; /* Padding */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Medium shadow */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition */
+}
+
+.button:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
