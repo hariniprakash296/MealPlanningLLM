@@ -18,6 +18,11 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9e5; /* Very slight cream color */
+  margin: 0;
+  padding: 0;
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Padding on any device */
 }
 
 @layer utilities {
@@ -27,7 +32,8 @@ body {
 }
 
 .bg-beige {
-  background-color: rgb(251, 215, 165); /* Beige color */
+  background-color: rgb(201, 235, 255); /* Beige color */
+
 }
 
 .border-soft-yellow {
