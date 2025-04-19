@@ -19,13 +19,14 @@ data access layer is the pantry and fridge where all ingredients live (cheese, d
 
 infrastructure layer is the building itself (walls, power, water, ovens)
                         In Code:
-                        UI → Order counter
+                        
+                        _UI → Order counter
 
                         Business Logic → Recipe and cooking
 
                         Data Access → Fetching inventory
 
-                        Database → Storage for ingredients/recipes
+                        Database → Storage for ingredients/recipes_
 
 # Separation of Concerns has 2 Processes - Increasing Cohesion and Reducing Coupling
 In Code:
